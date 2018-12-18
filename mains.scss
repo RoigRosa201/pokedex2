@@ -1,20 +1,60 @@
 
 
 
-.title {
-display: block;
-font-size: 1.5em;
-margin-top: 0.83em;
-margin-bottom: 0.83em;
-margin-left: 0;
-margin-right: 0;
+body {
+    background-image: url('https://cdn.images.express.co.uk/img/dynamic/143/590x/Pokemon-Go-Gym-828909.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    
 }
 
-#AerodactylDiv, #ArticunoDiv, #KabutopsDiv {
-    display: block;
-    font-size: .67em;
-    margin-top: 2.33em;
-    margin-bottom: 2.33em;
-    margin-left: 0;
-    margin-right: 0;
+.kabutops {
+  background-image: url(../pokedex/kabutopsbg.jpg);
+  color: Red;
+  font-family: fantasy;
 }
+
+.kabutops_XY.gif {
+  height: 200px
+}
+.aerodactyl {
+  background-image: url(../pokedex/aerodactylbg.jpg);
+  color: Red;
+  font-family: fantasy;
+}
+
+.articuno {
+  background-image: url(../pokedex/articunobg.jpg);
+  color: Red;
+  font-family: fantasy;
+  
+}
+ 
+  
+  .topnav {
+        overflow: hidden;
+        background-color: #333;
+      }
+      
+    .topnav a {
+        float: left;
+        text-align: start; 
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        color: yellow;
+      }
+
+      .topnav a:hover {
+        background-color: yellow;
+        color: yellow;
+      }
+
+     
+      h1 { 
+        color: yellow
+      }
+
+      
