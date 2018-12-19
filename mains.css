@@ -25,16 +25,19 @@ background-image: url(../pokedex/articunobg.jpg);
 color: Red;
 font-family: fantasy;
 background-color: black;
+background-repeat: no-repeat;
+background-size: cover;
 
 }
 
-.articuno.kabutops_XY.gif {
-  background-color: red
+.articuno2{
+  background-color: transparent;
+  border: none;
 }
 
 .topnav {
       overflow: hidden;
-      background-color: #333;
+      /* background-color: #333; */
     }
     
   .topnav a {
