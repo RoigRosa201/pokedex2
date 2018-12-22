@@ -3,14 +3,14 @@
 window.onload=function(){
     document.getElementById("pokeplay.mp4").play();
 }
-class Pokemon {
-    constructor(hp, attack, defense, abilities) {
-        this.hp = hp;
-        this.attack = attack;
-        this.defense = defense;
-        this.abilities = abilities;
-    }
-}
+// class Pokemon {
+//     constructor(hp, attack, defense, abilities) {
+//         this.hp = hp;
+//         this.attack = attack;
+//         this.defense = defense;
+//         this.abilities = abilities;
+//     }
+// }
 //Article pokemon API stats.
 axios.get("https://pokeapi.co/api/v2/pokemon/144/")
 .then(response => {
