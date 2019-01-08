@@ -1,4 +1,4 @@
-# pokedex Project, NYCDA assignment.
+# Pokedex Project, NYCDA assignment.
 
 Goal:
 
